@@ -1,3 +1,41 @@
+body {
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+}
+
+h2 {
+    margin: 0%;
+    font-size: 32px;
+    line-height: 32px;
+    color: hsl(212, 21%, 14%);
+}
+
+h2,
+#price-discount {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+#price-discount {
+    font-size: 30px;
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 0%;
+    line-height: 22px;
+}
+
+
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -9,5 +47,69 @@
 
 #card {
     width: 600px;
-    border: solid black 5px;
+    padding: 0px;
+    display: flex;
+    align-items: stretch;
+}
+
+#card-image {
+    width: 300px;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    margin-right: 0%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#card-information {
+    background-color: white;
+    width: 240px;
+    display: inline-block;
+    padding: 00px 30px 0px 30px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+#price-div {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    column-gap: 20px;
+}
+
+#price-discount {
+    color: hsl(158, 36%, 37%);
+}
+
+button {
+    width: 100%;
+    height: 48px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+svg {
+    padding-right: 10px;
+}
+
+button:hover {
+    background-color: hsl(144, 37%, 17%);
 }
