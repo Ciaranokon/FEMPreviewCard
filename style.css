@@ -157,13 +157,27 @@ button:hover {
         flex-direction: column;
         align-items: stretch;
         justify-content: space-evenly;
-        padding: 00px 5% 0px 5%;
+        padding: 0px 5% 0px 5%;
         border-bottom-right-radius: 10px;
         border-bottom-left-radius: 10px;
         flex-wrap: wrap;
     }
 
+    h2 {
+        font-size: 34px;
+    }
+
+    p {
+        line-height: 20px;
+        font-size: 15px;
+    }
+
+    #price-discount {
+        font-size: 28px;
+    }
+
     button {
         width: 100%;
+        height: 46px;
     }
 }
