@@ -10,8 +10,8 @@ body {
 
 h2 {
     margin: 0%;
-    font-size: 32px;
-    line-height: 32px;
+    font-size: 2rem;
+    line-height: 2rem;
     color: hsl(212, 21%, 14%);
 }
 
@@ -27,11 +27,11 @@ h2,
 
 p {
     color: hsl(228, 12%, 48%);
-    font-size: 14px;
+    font-size: 0.9rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     margin: 0%;
-    line-height: 22px;
+    line-height: 1.3rem;
 }
 
 
@@ -110,7 +110,7 @@ button {
 }
 
 svg {
-    padding-right: 10px;
+    padding-right: 0.6rem;
 }
 
 button:hover {
@@ -164,16 +164,16 @@ button:hover {
     }
 
     h2 {
-        font-size: 34px;
+        font-size: 2rem;
     }
 
     p {
-        line-height: 20px;
-        font-size: 15px;
+        line-height: 1.3rem;
+        font-size: 1rem;
     }
 
     #price-discount {
-        font-size: 28px;
+        font-size: 1.5rem;
     }
 
     button {
